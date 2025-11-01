@@ -148,3 +148,38 @@ footer {
   gap: 20px;
   padding: 20px;
 }
+
+tr:hover{
+  background-color: #e0e0e0;
+}
+
+.hero img:hover{
+  transform: scale(1.1);
+}
+
+.hero img{
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover{
+  transform: scale(1.1);
+}
+
+.project-card{
+  transition: transform 0.3s ease;
+}
+
+th, td{
+  padding: 16px;
+  text-align: left;
+  border-bottom: 1px solid #e9ecef;
+}
+
+th{
+  background-color: #4a69bd;
+  color: #ffffff;
+}
+
+td{
+  color: #000000 
+}
